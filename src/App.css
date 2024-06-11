@@ -1,0 +1,63 @@
+.App {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif; 
+}
+
+.App-header {
+  background-color: #a0d2eb;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #a28089;
+  padding: 48px;
+  border-radius: 8px; 
+}
+
+.custom-buttons button {
+  font-size: 18px; 
+  margin-bottom: 16px;
+  color: white;
+  padding: 12px 24px; 
+  font-weight: bold;
+  border: none; 
+  border-radius: 8px; 
+  background-color: #4CAF50; 
+  cursor: pointer; 
+  transition: background-color 0.2s ease-in-out; 
+
+  &:hover {
+    background-color: #3e8e41; 
+  }
+}
+
+.custom-buttons button:nth-child(2) { 
+  background-color: #f44336; 
+  transition: background-color 0.2s ease-in-out;
+
+  &:hover {
+    background-color: #e31837; 
+  }
+}
+
+input {
+  font-size: 18px;
+  padding: 12px 16px;
+  border: 1px solid #ccc; 
+  border-radius: 8px;
+  width: 300px; 
+}
+
+.description {
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  padding: 24px;
+  margin-bottom: 32px; 
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); 
+}
+
+.greeting {
+  color: #8458B3; 
+  font-size: 24px; 
+}
